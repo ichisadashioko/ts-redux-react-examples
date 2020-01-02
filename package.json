@@ -1,0 +1,6 @@
+{
+  "name": "ts-redux",
+  "dependencies": {
+    "redux": "^4.0.5"
+  }
+}
