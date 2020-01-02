@@ -1,6 +1,12 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 
-export const App = () => (
-    <div>Hello!</div>
-)
+import { Login } from './Login'
+
+export const App = () => {
+    if (true) {
+        return <Login />
+    }
+    return (
+        <div>Hello!</div>
+    )
+}
